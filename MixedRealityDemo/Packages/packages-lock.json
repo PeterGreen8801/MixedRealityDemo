@@ -1,5 +1,20 @@
 {
   "dependencies": {
+    "com.darktable.xrgizmos": {
+      "version": "https://github.com/darktable/XRGizmos.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "558f23b6ed48f7aabca66e190dac1a6bcb37bce8"
+    },
+    "com.deltation.toon-shader": {
+      "version": "file:D:/Peter2/Unity Assets/urp-toon-shader-master/Packages/com.deltation.toon-shader",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "12.1.6"
+      }
+    },
     "com.meta.xr.mrutilitykit": {
       "version": "60.0.0",
       "depth": 1,
@@ -168,7 +183,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.18",
+      "version": "2.0.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
